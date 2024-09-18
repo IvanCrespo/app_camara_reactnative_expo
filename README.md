@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Camera App con Expo
 
-## Get started
+Camera App se creo con React Native/Expo; para poder instalar y ocupar el proyecto de este repositorio necesitaremos lo siguiente:
 
-1. Install dependencies
+- [Node JS](https://nodejs.org/en/download/package-manager) `v20.16.0`
 
-   ```bash
-   npm install
-   ```
+## Paquetes JSON - Versiones
 
-2. Start the app
+| Paquete |         Description                |
+| :--------         | :------------------------- |
+| `react` | **Requiere** "^18.2.0" |
+| `react-native` | **Requiere** "^0.74.5" |
+| `expo` | **Requiere** "~51.0.28" |
+| `react-native-vision-camera` | **Requiere** "^4.5.3" |
+| `expo-blur` | **Requiere** "~13.0.2" |
+| `expo-media-library` | **Requiere** "~16.0.4" |
+| `react-native-reanimated` | **Requiere** "~3.10.1" |
 
-   ```bash
-    npx expo start
-   ```
+Para verificar la instalación y uso de su ecosistema de Expo: [Expo](https://expo.dev/).
 
-In the output, you'll find options to open the app in a
+Para verificar la instalación y documentación de Vision Camera (Plugin para camara): [Vision Camera](https://react-native-vision-camera.com/docs/guides).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Clonar y Ejecutar Localmente
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Clonar el proyecto
 
 ```bash
-npm run reset-project
+  git clone <repository url>
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Ir al directorio del proyecto
 
-## Learn more
+```bash
+  cd my-project
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Instalar dependencias
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+  npm install
+```
 
-## Join the community
+Prebuild
 
-Join our community of developers creating universal apps.
+```bash
+  npx expo prebuild
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Correr el proyecto Expo
+
+```bash
+  npx expo start
+```
