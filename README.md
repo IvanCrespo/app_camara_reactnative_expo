@@ -1,3 +1,5 @@
+![Shot](https://github.com/user-attachments/assets/55985d78-7728-42e3-898c-3604a070b990)
+
 
 # Camera App con Expo
 
